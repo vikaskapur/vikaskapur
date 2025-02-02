@@ -1,6 +1,4 @@
 - 👋 Hi, I’m @vikaskapur
-- 👀 I’m interested in NLP
-- 🌱 I’m currently learning Semiparameteric modeling for Conversational QA
 - 📫 How to reach me : vikaskapur04@gmail.com
 
 <!---
