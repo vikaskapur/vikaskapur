@@ -1,3 +1,5 @@
+import os
+
 import climage
 import pyfiglet
 
@@ -6,7 +8,7 @@ class DisplayProfile:
     
     def __init__(self):
         self.name = "Vikas Kapur"
-        self.image = "resources/vikas.jpg"
+        self.image = f"{os.path.dirname(os.path.abspath(__file__))}/vikas.jpg"
 
     def display_name(self):
         name_banner = pyfiglet.figlet_format(self.name)

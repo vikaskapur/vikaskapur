@@ -11,7 +11,7 @@ setup(
     author_email="vikaskapur04@gmail.com",
     maintainer="Vikas Kapur",
     maintainer_email="vikaskapur04@gmail.com",
-    version="1.0.0",
+    version="1.0.1",
     url="https://github.com/vikaskapur/vikaskapur.git",
     download_url='https://github.com/vikaskapur/vikaskapur.git',
     keywords=['Vikas Kapur', 'vikaskapur', 'profile', 'terminal'],
@@ -25,6 +25,10 @@ setup(
     python_requires=">=3.6",
     packages=find_packages(),
     include_package_data=True,
+    package_data = {
+        # If any package contains *.jpg files, include them:
+        "": ["*.jpg"]
+    },
     install_requires=[
         'climage',
         'pyfiglet',
@@ -39,9 +43,9 @@ setup(
         'Programming Language :: Python :: 3'],
     entry_points={
         'console_scripts': [
-            'profile = vikaskapur.__main__:main',
-            'name = vikaskapur.__main__:name',
-            'photo = vikaskapur.__main__:image'
+            'profile = vikaskapur.__init__:profile',
+            'name = vikaskapur.__init__:name',
+            'photo = vikaskapur.__init__:photo'
         ]},
     setup_requires=['pytest-runner'],
     tests_require=['pytest'],
