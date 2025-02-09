@@ -11,7 +11,7 @@ setup(
     author_email="vikaskapur04@gmail.com",
     maintainer="Vikas Kapur",
     maintainer_email="vikaskapur04@gmail.com",
-    version="1.0.1",
+    version="1.0.2",
     url="https://github.com/vikaskapur/vikaskapur.git",
     download_url='https://github.com/vikaskapur/vikaskapur.git',
     keywords=['Vikas Kapur', 'vikaskapur', 'profile', 'terminal'],
